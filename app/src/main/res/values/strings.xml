@@ -2,7 +2,7 @@
     <string name="app_name">EstateHub</string>
     <string name="loading">Loading…</string>
     <string name="no_items_found">No items found</string>
-    <string name="error_text">"Oops!: "</string>
+    <string name="error_text">"Oops!: %1$s "</string>
     <string name="image_content_description">estate image</string>
     <string name="city">City</string>
     <string name="property_type">Property Type</string>
