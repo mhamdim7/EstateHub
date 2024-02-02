@@ -12,7 +12,6 @@ class Dimens(
     val veryLarge: Dp = 36.dp,
     //
     val imageSize: Dp = 200.dp,
-    val estateItemImageHeight: Dp = 160.dp
 )
 
 val MaterialTheme.dimens: Dimens

@@ -3,6 +3,7 @@ package com.sameh.estatehub.presentation.ui.components
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -13,7 +14,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.unit.dp
 import com.sameh.estatehub.R
 import com.sameh.estatehub.presentation.ui.theme.dimens
 
@@ -22,8 +22,8 @@ import com.sameh.estatehub.presentation.ui.theme.dimens
 fun ProgressLoader() {
     Column(
         Modifier
-            .fillMaxWidth()
-            .padding(24.dp),
+            .fillMaxSize()
+            .padding(MaterialTheme.dimens.large),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {

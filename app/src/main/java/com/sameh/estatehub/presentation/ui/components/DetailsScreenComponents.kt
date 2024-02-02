@@ -29,7 +29,7 @@ fun RealEstateDetail(estate: EstateDetailsUiModel) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(MaterialTheme.dimens.small),
+            .padding(MaterialTheme.dimens.medium),
         shape = MaterialTheme.shapes.medium
     ) {
         LazyColumn(
@@ -102,16 +102,16 @@ fun DetailItem(title: String, value: String) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(8.dp)
+            .padding(MaterialTheme.dimens.small)
     ) {
         Text(
             text = title,
-            style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold)
+            style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold)
         )
-        Spacer(modifier = Modifier.height(4.dp))
+        Spacer(modifier = Modifier.height(MaterialTheme.dimens.verySmall))
         Text(
             text = value,
-            style = MaterialTheme.typography.bodySmall
+            style = MaterialTheme.typography.bodyMedium
         )
     }
 }
