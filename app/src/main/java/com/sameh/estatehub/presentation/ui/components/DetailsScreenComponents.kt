@@ -19,7 +19,6 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import com.sameh.estatehub.R
 import com.sameh.estatehub.presentation.ui.EstateDetailsUiModel
 import com.sameh.estatehub.presentation.ui.theme.dimens
@@ -29,7 +28,10 @@ fun RealEstateDetail(estate: EstateDetailsUiModel) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(MaterialTheme.dimens.medium),
+            .padding(
+                horizontal = MaterialTheme.dimens.medium,
+                vertical = MaterialTheme.dimens.large
+            ),
         shape = MaterialTheme.shapes.medium
     ) {
         LazyColumn(
