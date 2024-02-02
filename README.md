@@ -2,7 +2,7 @@
 
 - [Tech Stack](#description)
 - [UX](#ux)
-- [Running Unit Tests](#running unit tests)
+- [Running Unit Tests](#runningUnitTests)
 
 ## Tech Stack
 
